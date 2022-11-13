@@ -27,7 +27,7 @@ def power(x):
 
 # This function calculates the percentage (y) of a given number (x)
 def percentage(x,y):
-    return y / 100 *x
+    return y / 100 * x
 
 print("Select operation.")
 print("1.Add")
@@ -62,14 +62,13 @@ while True:
             print(num1, "^", num2, "=", power(num1, num2))
         elif choice == '6':
             print(num2, "% of", num1, "=", percentage(num1, num2))
-
-
-   
     elif choice in ('7'):
         num3 = float(input("Enter first number: "))
 
         if choice == '7':
             print(num3, "square root =", power(num3)) 
+    else:
+        print("Invalid Input")
 
     # check if user wants another calculation
     # break the while loop if answer is no
@@ -77,5 +76,3 @@ while True:
     if next_calculation == "no":
         break
     
-    else:
-        print("Invalid Input")
