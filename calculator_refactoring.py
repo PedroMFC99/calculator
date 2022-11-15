@@ -1,31 +1,31 @@
 import math
-# Program make a simple calculator
+# Program to make a simple calculator
 
-# This function adds two numbers
+# Adds two numbers
 def add(x, y):
     return x + y
 
-# This function subtracts two numbers
+# Subtracts two numbers
 def subtract(x, y):
     return x - y
 
-# This function multiplies two numbers
+# Multiplies two numbers
 def multiply(x, y):
     return x * y
 
-# This function divides two numbers
+# Divides two numbers
 def divide(x, y):
     return x / y
 
-# This function powers a base number (x) by an exponent (y)
+# Powers a base number (x) by an exponent (y)
 def power(x, y):
     return pow(x,y)
 
-# This function calculates the square root of a given number (x)
+# Calculates the square root of a given number (x)
 def power(x):
     return math.sqrt(x)
 
-# This function calculates the percentage (y) of a given number (x)
+# Calculates the percentage (y) of a given number (x)
 def percentage(x,y):
     return y / 100 * x
 
